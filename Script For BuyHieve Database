@@ -1,0 +1,49 @@
+To insert into categories 
+
+
+insert into "category" (category_id, product_name, parent_category_id,created_date )
+values (1,'Product 01',2,CURRENT_DATE);
+
+
+
+To insert into product_certificate
+
+insert into "product_certificate" (certificate_id, certificate_name)
+values (1, 'Certificate 01');
+
+
+
+To insert into supplier
+
+insert into "supplier" (supplier_id, supplier_name, certificate)
+values (1, 'Supplier 01'  , 1);
+
+
+
+To insert into supplier_certificate
+
+insert into "supplier_certificate" (certificate_id, certificate_name)
+values (1, 'Certificate 01');
+
+
+To insert into supplier_certificate_bridge
+insert into "supplier_certificate_bridge" (supplier_id, certificate_id)
+values(1,1);
+
+
+
+Insert into products
+
+insert into "products" (product_id, product_name,product_description, quantity, price, manufacturer_location, in_usa,image, category_id,supplier_id, created_date )
+values ( 1,'Product 1', 'paste image url',1,1,CURRENT_DATE)
+
+
+
+
+
+
+
+
+
+
+//GET 
